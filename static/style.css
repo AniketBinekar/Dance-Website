@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar ul
+{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar
+{
+    background-color: #d43b3b;
+    padding: 13px 14px;
+}
+#navbar li
+{
+    list-style: none;
+}
+#navbar li a
+{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#navbar li a:hover
+{
+    color: black;
+    /* text-decoration: none;
+    padding: 13px 30px; */
+}
+#introsection 
+{
+    padding-bottom: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    background: center/cover no-repeat url("/static/ss.jpg");
+    height: 425px;
+    background-color: red;
+}
+#missionsection 
+{
+    height: 326px;
+    width: 67%;
+    margin: auto;
+}
+#logo
+{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+#logo img
+{
+    height: 42px;
+    filter: invert(1);
+}
+#missionsection h2
+{
+    font-size: 36px;
+   text-align: center;
+   padding-top: 13px;
+}
+.card
+{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 23px 20px;
+    height: 209px;
+}
+.card h3
+{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 15px;
+}
+.card-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img
+{
+    height: 131px;
+    padding:  0 14px;
+    margin: 5px 9px;
+}
+.card-img img
+{
+    height: inherit;
+    /* margin: 0 14px; */
+}
+.card-content
+{
+    padding: 0 10px
+}
+.card-content p
+{
+     font-size: 19px;
+}
+#introsection div.small
+{
+    padding: 5px;
+    font-size: 27px;
+}
+#sponsersection
+{
+    height: 250px;
+    background-color: #fbd6d6c7;
+}
+#sponsersection h2
+{
+    font-size: 36px;
+   text-align: center;
+   padding-top: 13px;
+}
+#sponser
+{
+    height: 190px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spImage
+{
+    height: 80%;
+    margin: 20px;
+}
+#foooter
+{
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

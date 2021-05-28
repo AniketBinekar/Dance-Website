@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#introsection 
+        div Welcome To Aniket Dance Academy 
+        div.small Eat Sleep Dance Repeat 
+
+    section#missionsection 
+        h2 Our Mission 
+        div.card 
+            h3 Dance Perfection 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/s1.png")
+                div.card-content 
+                    p This is Best Dance Academy In The Universe
+        div.card 
+            h3 Dance The Way You Like 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/fg.png")
+                div.card-content 
+                    p This is Best Dance Academy In The Universe
+        div.card 
+            h3 Expert Teaching 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/gg.png")
+                div.card-content 
+                    p This is Best Dance Academy In The Universe
+
+    section#sponsersection 
+        h2 Our Sponsors 
+        div#sponser 
+            img(src="/static/img/hp.png", alt="Sponser Image",Class="spImage")  
+            img(src="/static/img/ibm.png", alt="Sponser Image",Class="spImage")  
+            img(src="/static/img/apple.png", alt="Sponser Image",Class="spImage")  
+            img(src="/static/img/microsoft.png", alt="Sponser Image",Class="spImage")  
+
